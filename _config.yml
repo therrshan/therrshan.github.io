@@ -7,12 +7,13 @@ description         : >-
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : therrshan/therrshan.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : YoussefRaafatNasry/portfolYOU
-open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
+open_new_tab        : true                             # Opens external URLs in new tab (works for posts, projects and navbar only)
 
 
 ### Plugins ###
 plugins:
   - jemoji
+  - "jekyll-github-metadata"
 
 
 ### Navbar Settings ###
@@ -25,7 +26,7 @@ nav_exclude:                                            # The following paths ar
 ### Author Info ###
 author:
   name              : Darshan Rajopadhye
-  image             : https://github.com/therrshan/therrshan.github.io/assets/img/pfp.jpeg
+  image             : https://media.licdn.com/dms/image/C5603AQHwXsmBUtoV2w/profile-displayphoto-shrink_400_400/0/1639478077270?e=1677110400&v=beta&t=5hluwV5nxJ-eVXd02eyXw7oLd2-oXvfz40PEw7QiTcQ
 # behance           : your_username
 # dribbble          : your_username
   email             : therrshan@gmail.com
