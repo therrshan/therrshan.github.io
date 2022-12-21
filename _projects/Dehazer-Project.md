@@ -34,5 +34,6 @@ python3 app.py or flask run
 <img alt="UI Fog" src="https://raw.githubusercontent.com/therrshan/Dehazer/master/diagrams/form_a.png"/>
 <img alt="UI Depth" src="https://raw.githubusercontent.com/therrshan/Dehazer/master/diagrams/form_b.png"/>
 
+<br>
 
-{% include elements/button.html link="https://github.com/therrshan/dehazer" text="GitHub" style="primary" size="sm" %}
+{% include elements/button.html link="https://github.com/therrshan/Dehazer" text="GitHub" block=true %}
