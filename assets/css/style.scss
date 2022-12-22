@@ -4,4 +4,82 @@
     background-image: url( '/assets/img/Black-Animation-Background.svg' );
  }
 
+ *,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.body_pubs {
+  background: #444;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  align-items: center;
+}
+
+p {
+  margin: 0 0 13px 0;
+}
+
+a {
+  color: #fff;
+}
+
+.center { text-align:start; margin-left: calc(5vw + 50px); }
+
+.container_pubs {
+  width: 95%;
+  max-width: 1220px;
+  align-items: start;
+  margin: 0 auto;
+}
+
+.episode {
+    position: relative;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+
+.episode__number {
+  font-size: 5vw;
+  font-weight: 600;
+  position: sticky;
+  top: 0;
+  text-align: center;
+  height: calc(5vw + 20px);
+  transition: all 0.2s ease-in;
+}
+
+.episode__content {
+  border-top: 2px solid #fff;
+  display: grid;
+  grid-template-rows: 1fr 4fr;
+  grid-gap: 10px;
+  padding: 15px 0;
+}
+
+.episode__content .title {
+  font-weight: 600;
+  font-size: 30px;
+  font-style: italic;
+  font-family:sans-serif;
+  height: calc(5vw + 20px);
+}
+
+.episode__content .story {
+  line-height: 26px;
+}
+
+@media (max-width: 600px) {
+  .episode__content {
+    grid-template-rows: 1fr;
+  }
+}
+
+@media (max-width: 576px) {
+  .episode__content .story {
+    font-size: 15px;
+  }
+}
 @import "portfolYOU";
