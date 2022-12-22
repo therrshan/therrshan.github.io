@@ -2,7 +2,7 @@
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
-_site
+_site/
 
 # Ruby Gems
 .bundle
