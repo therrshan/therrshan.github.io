@@ -1,7 +1,7 @@
 ---
 name: AOD NET - PyTorch implementation.
 tools: [Pytorch, CNN, Python]
-image: https://www.researchgate.net/profile/Zhangyang-Wang/publication/319662852/figure/fig1/AS:538546299314176@1505410851554/The-AOD-Net-architecture-for-single-image-dehazing-Li-et-al-2017a-2017b-which.png
+image: https://raw.githubusercontent.com/therrshan/therrshan.github.io/main/assets/img/3.png
 description: A pytorch implementation of AOD-Net - All-in-One Network for Dehazing
 ---
 
