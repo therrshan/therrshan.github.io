@@ -1,7 +1,7 @@
 ---
 name: Dehazer
 tools: [Flask, Python]
-image: https://raw.githubusercontent.com/therrshan/therrshan.github.io/main/assets/img/2.png
+image: https://raw.githubusercontent.com/therrshan/therrshan.github.io/main/assets/img/deh.png
 description: This app was developed using the Flask web app framework of python language and was optimized for deployment.
 ---
 
